@@ -167,3 +167,45 @@ body{
 .button__cancel:hover{
     color: var(--dark-blue);
 }
+
+
+/*mobile: 375px*/
+
+@media screen and (max-width: 376px){
+    
+    body{
+        min-width: 375px;
+        max-width:375px;
+        width: 100%; 
+
+    }
+    .summary-container{ 
+        width: 100%;
+        max-width: 340px;
+        min-width: 340px;
+        height: auto;
+        min-height: 600px;
+    }
+    .summary__img {
+        width: 100%;
+        max-width: 340px;
+        min-width: 340px;
+    } 
+
+    .summary__order{
+        padding: 1.5em 1.2em;
+    }
+
+    .order__description{
+        padding:0 1em ;
+    }
+
+    .order__plan{
+        width: 100%;
+        padding: 1.5em 1em;
+    }
+    .order__plan div {
+        text-align: left;
+        margin-left:4em;
+    }
+}
